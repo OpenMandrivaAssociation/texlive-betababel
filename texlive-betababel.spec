@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/betababel
+# catalog-date 2009-03-27 13:15:14 +0100
+# catalog-license lppl
+# catalog-version 0.5
 Name:		texlive-betababel
 Version:	0.5
 Release:	1
@@ -42,6 +48,7 @@ example -- without modification.
 %{_texmfdistdir}/tex/latex/betababel/betababel.sty
 %doc %{_texmfdistdir}/doc/latex/betababel/betatest.pdf
 %doc %{_texmfdistdir}/doc/latex/betababel/betatest.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ example -- without modification.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
