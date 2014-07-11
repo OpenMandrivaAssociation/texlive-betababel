@@ -6,7 +6,7 @@
 # catalog-version 0.5
 Name:		texlive-betababel
 Version:	0.5
-Release:	7
+Release:	8
 Summary:	Insert ancient greek text coded in Beta Code
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/betababel
