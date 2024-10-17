@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Insert ancient greek text coded in Beta Code
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/betababel
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/betababel
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/betababel.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/betababel.doc.r%{version}.tar.xz
